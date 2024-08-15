@@ -1,0 +1,55 @@
+body{
+	
+	background-image:url("web1.jpg");
+	background-attachment:fixed;
+	background-size: cover; 
+    background-position: center;
+	
+}
+h1 {
+    font-family: "Times New Roman", serif;
+    font-size: 4em; /* Use em for better scaling */
+    color: black;
+    text-align: center; /* Center-align the text */
+}
+#wel {
+    font-size: 3em; /* Use em for better scaling */
+    font-style: italic;
+    color: darkslateblue;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Ensure text is centered within its container */
+}
+a {
+    font-size: 3em; /* Use em for better scaling */
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Ensure text is centered within its container */
+    text-decoration: none; /* Remove default underline */
+}
+/* Base styles for larger screens (laptops) */
+@media (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Styles for smaller screens (phones) */
+@media (max-width: 767px) {
+    h1 {
+        font-size: 2.5em; /* Smaller font size for mobile */
+    }
+
+    #wel {
+        font-size: 1.5em; /* Smaller font size for mobile */
+    }
+
+    a {
+        font-size: 1.5em; /* Smaller font size for mobile */
+    }
+}
